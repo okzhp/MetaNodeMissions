@@ -13,11 +13,13 @@
 > 调用注册接口注册成功后，使用注册的账户调用登录接口会返回一个token，后续请求需要在请求头中加入:
 > Authorization: token值
 
+> test_result文件夹中包含了所有接口的调用测试结果截图
+
 ## 3、目录结构说明
 
 ```
 /mission4
-    /controller ---------->控制器层,负责绑定参数，并调用service处理请求
+    /controller ---------->控制器层,负责参数校验和绑定，并调用service处理请求
         blog_controller.go
         user_controller.go
     /dto ----------------->数据传输层
