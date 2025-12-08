@@ -1,0 +1,6 @@
+{
+  "username": "root",
+  "password": "rootroot",
+  "dbName": "db1",
+  "ip": "127.0.0.1:3306"
+}
